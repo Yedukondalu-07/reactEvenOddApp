@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 12px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  font-family: roboto;
+}
+.count{
+    color: #0f172a;
+    font-size: 32px;
+}
+.number{
+  color: #334155;
+  font-size: 20px;
+}
+.increment-button{
+  color: #1e293b;
+  font-size: 12px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 32px 8px 32px;
+}
+.note{
+  color: #334155;
+  font-size: 10px;
+}
+@media (min-width: 767px) {
+  .count-container{
+    height: 500px;
+    width: 500px;
+  }
+  .note{
+    font-size: 14px;
+  }
+  .increment-button{
+    font-size: 20px;
+
+  }
+}
